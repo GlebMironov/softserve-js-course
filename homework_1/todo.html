@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="todo.css">
+		<script type="text/javascript" src="todo.js"></script>
+	</head>
+	<body>
+		<table width="80%" align="center">
+			<tr>
+				<td width="50%"></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td>
+			</tr>
+		</table>
+		<script type="text/javascript">
+			var tdArray = document.getElementsByTagName("td");
+			var todoArray = []; 
+			
+			todoArray[0] = todoComponent("aliceblue");
+			todoArray[1] = todoComponent("yellow");
+			todoArray[2] = todoComponent("antiquewhite");
+			todoArray[3] = todoComponent("greenyellow");
+			
+			for (var i = 0; i < 4; i++) {
+				tdArray[i].appendChild(todoArray[i]);
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+div.todo {
+	margin: 10px;
+	padding: 10px;
+	height: 200px;
+	width: 400px;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 5px;
+	background-color: white;
+	overflow: auto;
+}
+label.label {
+	padding: 5px;
+	font-size: large;
+	font-weight: bold;
+}
+div.todoMessage {
+	padding: 2px;
+	height: 5px;
+	color: red;
+}
+ul.todoList {
+	list-style-type: none;
+	padding: 5px;
+}
+li.todoItem {
+	border-bottom-style: dotted;
+	border-bottom-width: thin;
+	padding: 1px;
+	font-size: large;
+}
+img.todoDelete {
+	margin-right: 10px;
+	color: red;
+	font-size: small;
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+}
+span.todoDate {
+	margin-right: 10px;
+	font-size: small;
+	font-style: italic;
+	color: gray;
+}
