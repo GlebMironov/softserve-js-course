@@ -53,7 +53,7 @@ function todoComponent(backgroundColor, title) {
 			li.append(timestamp["element"]);
 			li.append(document.createTextNode(todoStorage[item]["text"]));
 			listContainer.append(li);
-			todoCounter = item;
+			todoCounter = item + 1;
 		}
 	}
 
